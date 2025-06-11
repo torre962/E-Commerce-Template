@@ -53,7 +53,11 @@ class HomeView extends Component {
                   tips={product.tips}
                   to={product.to}
                 >
-                  <ProductImage className={product.cssClass} width="80" height="80" />
+                  <ProductImage
+                    className={product.cssClass}
+                    width="80"
+                    height="80"
+                  />
                 </CardIcon>
               </div>
             );
@@ -84,7 +88,7 @@ class HomeView extends Component {
             <div className="col-md-12">
               <CardDealsOfTheDay
                 endDate={Date.now() + 1000 * 60 * 60 * 14}
-                title="Deals of the Day"
+                title="Ofertas del día"
                 to="/"
               >
                 <Carousel id="elect-product-category1">
@@ -96,7 +100,7 @@ class HomeView extends Component {
         </div>
 
         <div className="bg-info bg-gradient p-3 text-center mb-3">
-          <h4 className="m-0">Explore Fashion Collection</h4>
+          <h4 className="m-0">Explore El Catalogo</h4>
         </div>
         <div className="container">
           <div className="row">
@@ -107,7 +111,7 @@ class HomeView extends Component {
                   className="img-fluid rounded-circle"
                   alt="..."
                 />
-                <div className="text-center h6">Men's Clothing</div>
+                <div className="text-center h6">ropa hombres</div>
               </Link>
             </div>
             <div className="col-md-3">
@@ -117,7 +121,7 @@ class HomeView extends Component {
                   className="img-fluid rounded-circle"
                   alt="..."
                 />
-                <div className="text-center h6">Women's Clothing</div>
+                <div className="text-center h6">ropa mujeres</div>
               </Link>
             </div>
             <div className="col-md-3">
@@ -127,7 +131,7 @@ class HomeView extends Component {
                   className="img-fluid rounded-circle"
                   alt="..."
                 />
-                <div className="text-center h6">Smartwatch</div>
+                <div className="text-center h6">reloj inteligente</div>
               </Link>
             </div>
             <div className="col-md-3">
