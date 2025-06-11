@@ -11,7 +11,7 @@ const CartView = () => {
   return (
     <div>
       <div className="bg-secondary border-top p-4 text-white mb-3">
-        <h1 className="display-6">Shopping Cart</h1>
+        <h1 className="display-6">Carro de la compra</h1>
       </div>
       <div className="container mb-3">
         <div className="row">
@@ -21,12 +21,12 @@ const CartView = () => {
                 <table className="table table-borderless">
                   <thead className="text-muted">
                     <tr className="small text-uppercase">
-                      <th scope="col">Product</th>
+                      <th scope="col">Producto</th>
                       <th scope="col" width={120}>
-                        Quantity
+                        Cantidad
                       </th>
                       <th scope="col" width={150}>
-                        Price
+                        Precio
                       </th>
                       <th scope="col" className="text-end" width={130}></th>
                     </tr>
@@ -47,7 +47,7 @@ const CartView = () => {
                               to="/product/detail"
                               className="text-decoration-none"
                             >
-                              Another name of some product goes just here
+                              Otro nombre de algún producto va justo aquí
                             </Link>
                             <p className="small text-muted">
                               Size: XL, Color: blue, Brand: XYZ
@@ -106,7 +106,7 @@ const CartView = () => {
                               to="/product/detail"
                               className="text-decoration-none"
                             >
-                              Another name of some product goes just here
+                              Otro nombre de algún producto va justo aquí
                             </Link>
                             <p className="small text-muted">
                               Size: XL, Color: blue, Brand: XYZ
@@ -155,36 +155,30 @@ const CartView = () => {
               </div>
               <div className="card-footer">
                 <Link to="/checkout" className="btn btn-primary float-end">
-                  Make Purchase <i className="bi bi-chevron-right"></i>
+                  Realizar Compra <i className="bi bi-chevron-right"></i>
                 </Link>
                 <Link to="/" className="btn btn-secondary">
-                  <i className="bi bi-chevron-left"></i> Continue shopping
+                  <i className="bi bi-chevron-left"></i> Seguir comprando
                 </Link>
               </div>
             </div>
             <div className="alert alert-success mt-3">
               <p className="m-0">
-                <i className="bi bi-truck"></i> Free Delivery within 1-2 weeks
+                <i className="bi bi-truck"></i> Entrega gratuita en 1-2 semanas
               </p>
             </div>
           </div>
           <div className="col-md-3">
-            <div className="card mb-3">
-              <div className="card-body">
-                <CouponApplyForm onSubmit={onSubmitApplyCouponCode} />
-              </div>
-            </div>
             <div className="card">
               <div className="card-body">
                 <dl className="row border-bottom">
-                  <dt className="col-6">Total price:</dt>
+                  <dt className="col-6">Total precio:</dt>
                   <dd className="col-6 text-end">$1,568</dd>
 
-                  <dt className="col-6 text-success">Discount:</dt>
+                  <dt className="col-6 text-success">Descuento:</dt>
                   <dd className="col-6 text-success text-end">-$58</dd>
                   <dt className="col-6 text-success">
-                    Coupon:{" "}
-                    <span className="small text-muted">EXAMPLECODE</span>{" "}
+                    Cupon: <span className="small text-muted">EXAMPLE</span>{" "}
                   </dt>
                   <dd className="col-6 text-success text-end">-$68</dd>
                 </dl>
@@ -209,16 +203,7 @@ const CartView = () => {
       </div>
       <div className="bg-light border-top p-4">
         <div className="container">
-          <h6>Payment and refund policy</h6>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+          <h6>Política de pagos y reembolsos</h6>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
