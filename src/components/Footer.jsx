@@ -6,19 +6,10 @@ const Footer = () => {
       <div className="container-fluid bg-primary">
         <div className="row ">
           <div className="col-md-9 py-3 text-white">
-            Get connected with us on social networks!
+            contactanos atraves de redes sociales como!
           </div>
           <div className="col-md-3 py-3 text-center text-white">
-            <Link to="/" title="Apple">
-              <i className="bi bi-apple text-light me-3"></i>
-            </Link>
-            <Link to="/" title="Windows">
-              <i className="bi bi-windows text-light me-3"></i>
-            </Link>
-            <Link to="/" title="Android">
-              <i className="bi bi-android2 text-light me-3"></i>
-            </Link>
-            |
+    
             <Link to="/" title="Twitter">
               <i className="bi bi-twitter-x text-light ms-3 me-3"></i>
             </Link>
@@ -37,17 +28,19 @@ const Footer = () => {
       <div className="container-fluid bg-dark text-white">
         <div className="row ">
           <div className="col-md-3 py-3">
-            <div className="h6">Company Name</div>
+            <div className="h6">Hierbería Pacha</div>
             <hr />
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+            Hierbería Pacha: Donde la sabiduría de la tierra florece
+            En nuestro rincón verde, las hierbas son más que plantas: son medicina ancestral, conexión con Pachamama y regalos de la naturaleza para tu bienestar. 
+            Desde remedios tradicionales hasta aromas que sanan el alma, cada hoja, raíz y flor que encuentras aquí lleva el amor y el poder de la Tierra.
+            Ven y descubre el equilibrio natural en cada infusión, ungüento o ritual. 
+            Porque en Hierbería Pacha, la naturaleza es nuestra aliada y tu salud, nuestra misión.
+            🌿 "La tierra cura, nosotros compartimos su magia"
             </p>
           </div>
           <div className="col-md-3 py-3">
-            <div className="h6">Products</div>
+            <div className="h6">Politica</div>
             <hr />
             <ul className="list-group list-group-flush">
               <li className="list-group-item bg-dark text-white border-light">
@@ -55,7 +48,7 @@ const Footer = () => {
                   to="/"
                   className="text-decoration-none text-white stretched-link"
                 >
-                  Electronics
+                  Return Politica
                 </Link>
               </li>
               <li className="list-group-item bg-dark text-white border-light">
@@ -63,7 +56,7 @@ const Footer = () => {
                   to="/"
                   className="text-decoration-none text-white stretched-link"
                 >
-                  Mobiles
+                  Terminos de uso
                 </Link>
               </li>
               <li className="list-group-item bg-dark text-white border-light">
@@ -71,7 +64,7 @@ const Footer = () => {
                   to="/"
                   className="text-decoration-none text-white stretched-link"
                 >
-                  Car & bike
+                  Seguridad
                 </Link>
               </li>
               <li className="list-group-item bg-dark text-white border-light">
@@ -79,79 +72,15 @@ const Footer = () => {
                   to="/"
                   className="text-decoration-none text-white stretched-link"
                 >
-                  Super Market
+                  Privacidad
                 </Link>
               </li>
-              <li className="list-group-item bg-dark text-white border-light">
-                <Link
-                  to="/"
-                  className="text-decoration-none text-white stretched-link"
-                >
-                  Travel Cards
-                </Link>
-              </li>
+        
             </ul>
           </div>
           <div className="col-md-3 py-3">
-            <div className="h6">Policy</div>
-            <hr />
-            <ul className="list-group list-group-flush">
-              <li className="list-group-item bg-dark text-white border-light">
-                <Link
-                  to="/"
-                  className="text-decoration-none text-white stretched-link"
-                >
-                  Return Policy
-                </Link>
-              </li>
-              <li className="list-group-item bg-dark text-white border-light">
-                <Link
-                  to="/"
-                  className="text-decoration-none text-white stretched-link"
-                >
-                  Terms Of Use
-                </Link>
-              </li>
-              <li className="list-group-item bg-dark text-white border-light">
-                <Link
-                  to="/"
-                  className="text-decoration-none text-white stretched-link"
-                >
-                  Security
-                </Link>
-              </li>
-              <li className="list-group-item bg-dark text-white border-light">
-                <Link
-                  to="/"
-                  className="text-decoration-none text-white stretched-link"
-                >
-                  Privacy
-                </Link>
-              </li>
-              <li className="list-group-item bg-dark text-white border-light">
-                <Link
-                  to="/"
-                  className="text-decoration-none text-white stretched-link"
-                >
-                  EPR Compliance
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div className="col-md-3 py-3">
-            <div className="h6">Address</div>
-            <hr />
-            <address>
-              <strong>Twitter, Inc.</strong>
-              <br />
-              1355 Market St, Suite 900
-              <br />
-              San Francisco, CA 94103
-              <br />
-              <abbr title="Phone">P:</abbr> (123) 456-7890
-            </address>
-            <div className="h6">Customer Care</div>
-            <hr />
+            <div className="h6">informacion y pagos atraves </div>
+            
             <i className="bi bi-telephone"></i> +1800 100 1000
             <br />
             <i className="bi bi-envelope"></i> info@email.com
@@ -160,25 +89,6 @@ const Footer = () => {
       </div>
       <div className="container-fluid bg-secondary text-white text-center">
         <div className="row">
-          <div className="col-md-2 py-2">
-            <Link to="/" className="text-white text-decoration-none">
-              <i className="bi bi-briefcase text-warning"></i> Partner with us
-            </Link>
-          </div>
-          <div className="col-md-2 py-2">
-            <Link to="/" className="text-white text-decoration-none">
-              <i className="bi bi-badge-ad text-info"></i> Advertise
-            </Link>
-          </div>
-          <div className="col-md-2 py-2">
-            <Link to="/" className="text-white text-decoration-none">
-              <i className="bi bi-gift"></i> Gift
-            </Link>
-          </div>
-          <div className="col-md-3 py-2">
-            © 2009-{new Date().getFullYear()} React-E-Commerce.com (
-            {process.env.REACT_APP_VERSION})
-          </div>
           <div className="col-md-3 py-2 bg-white">
             <img
               src="../../images/payment/american_express.webp"
